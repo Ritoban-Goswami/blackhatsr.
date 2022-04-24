@@ -1,0 +1,43 @@
+body {
+    position: relative;
+    background: linear-gradient(rgba(176, 224, 230, 0.712), rgba(189, 114, 212, 0.863), rgba(14, 26, 189, 0.76));
+    margin: 0;
+    padding: 0;
+    background-size: 1px 2000px;
+    transition: background-position 5s;
+}
+body:hover{
+    background-position: 500px; 
+}
+h1 {
+    text-align: center;
+    font-size: 331%;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 101px;
+    margin: 79px 300px;
+}
+
+.thebutton {
+    display: flex;
+    background-color: rgba(2, 2, 167, 0.835);
+    color: rgba(255, 255, 255, 0.856);
+    justify-content: center;
+    margin: 21px 894px;
+    padding: 21px 84px;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    transition: background-color 0.75s;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.gradienttest {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    height: 33.33%;
+    padding: 100px 350px;
+}
